@@ -94,7 +94,7 @@ class ModelImageVisualizer:
         render_factor: int = None,
         display_render_factor: bool = False,
         compare: bool = False,
-        watermarked: bool = True,
+        watermarked: bool = False,
     ) -> Path:
         path = Path(path)
         result = self.get_transformed_image(
